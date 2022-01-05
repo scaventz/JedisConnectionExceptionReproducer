@@ -13,4 +13,5 @@
 3. Examine cluster nodes status `cluster nodes`
 4. Kill one of the cluster node process
 5. Check cluster status: `cluster info`, cluster status should be OK after quick fail-over 
-6. access `http://localhost:8080/hello` again, the `JedisConnectionException` shows up
+6. access `http://localhost:8080/hello` again (or just refresh the page), the `JedisConnectionException` shows up
+6. refresh the `hello` page ,  everything is okay again.
